@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TestSpringApplication<testSpring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tyagi.spring.testSpring.TestSpringApplication",
+            "projectName": "testSpring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
