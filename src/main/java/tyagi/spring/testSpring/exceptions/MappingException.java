@@ -1,0 +1,18 @@
+package tyagi.spring.testSpring.exceptions;
+
+public class MappingException extends RuntimeException {
+    private String customMessage;
+
+    public MappingException(String arg0, String customMessage) {
+        super(arg0);
+        this.customMessage = customMessage;
+    }
+
+    public String getCustomMessage() {
+        return customMessage;
+    }
+
+    public void setCustomMessage(String customMessage) {
+        this.customMessage = customMessage;
+    }
+}
